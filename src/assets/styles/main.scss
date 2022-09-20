@@ -5,8 +5,8 @@
 /*-------------------------------------*/
 
 //Primary Colors
-$primary: rgba(125, 187, 187, 1);
-$secondary: rgba(23, 29, 30, 0.8);
+$primary: rgba(221, 116, 0, 1);
+$secondary: rgba(64, 68, 75, 0.8);
 $highlight-hover: rgba(255, 255, 255, 0.3);
 $highlight-active: rgba(255, 255, 255, 0.1);
 
@@ -164,7 +164,7 @@ header {
 }
 
 .logo {
-  width: 50px;
+  width: 80px;
   height: 80px;
   margin-left: 15px;
 }
@@ -681,7 +681,7 @@ section .section-header {
   img.portrait {
     width: 600px;
     height: 662px;
-    object-fit: cover;
+    object-fit: scale-down;
   }
 
   .pilot-header-container {
@@ -775,7 +775,7 @@ div.markdown {
     margin-bottom: 0.25em;
     line-height: 1.5em;
     font-family: "Raleway", sans-serif;
-    font-size: 10px;
+    font-size: 18px;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -783,7 +783,7 @@ div.markdown {
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 14px;
     margin: 0%;
     margin-bottom: 1em;
     align-self: center;
