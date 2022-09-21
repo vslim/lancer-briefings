@@ -208,7 +208,7 @@ export default {
 
 <style lang="scss">
 #app {
-	min-height:714px;
+	min-height:910px;
 	min-width: 1750px;
 	height: 100%;
 	width: 100%;
