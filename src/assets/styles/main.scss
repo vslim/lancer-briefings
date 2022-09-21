@@ -92,7 +92,8 @@ $text-markdown-h2: rgba(255, 255, 255, 0.87);
 }
 
 body {
-  overflow: hidden !important;
+  overflow-y: hidden;
+  overflow-x: auto;
 }
 
 header {
@@ -326,11 +327,12 @@ section .section-header {
 }
 
 .section-content-container {
-  height: 666px;
+  height: calc(100vh - 220px);
   background: $secondary;
   border: 1px solid $primary;
   margin-top: -1px;
   z-index: 0;
+  overflow-y: auto;
 
   h3 {
     color: $primary;
@@ -364,7 +366,7 @@ section .section-header {
 
 .mission-list-container {
   height: 180px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .clipped-medium-backward {
@@ -483,8 +485,6 @@ section .section-header {
 }
 
 .pilot-list-container {
-  height: 666px;
-  overflow-y: scroll;
 }
 
 #pilots .pilot {

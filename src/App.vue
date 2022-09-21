@@ -26,7 +26,7 @@
         <img src="/icons/events-icon.svg" />
         <h1>Data Log</h1>
       </div>
-      <div class="section-content-container">
+      <div class="section-content-container" style="overflow:hidden;">
         <Markdown :source="events" class="markdown" />
       </div>
     </section>
@@ -208,8 +208,10 @@ export default {
 
 <style lang="scss">
 #app {
-  width: 1902px;
-  height: 1080px;
-  overflow: hidden;
+	min-height:714px;
+	min-width: 1750px;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
 }
 </style>
