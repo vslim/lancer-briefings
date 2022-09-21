@@ -28,7 +28,7 @@ Marshall has said **IPS-N** will not comment further until the investigation int
 
 Tango-15 Site Director, Viktor Petrenko, conferred with our reporters that no tanks of 2.0 grade were being utilized by **IPS-N**.
 
-The Tango-15 off-shore platform was developed by **IPS-N Technologies** and the Carina Council's development arm, CPA, as part of the council’s *Ship Safe Initiative*, where IPS-N distribute "anti-piracy technology" to bases throughout the galaxy. Popular opinion still holds against *SSI*. *[READ MORE]*
+The Tango-15 off-shore platform was developed by **IPS-N Technologies** and the Carina Council's development arm, CPA, as part of the council’s *Ship Safe Initiative*, where **IPS-N** distribute "anti-piracy technology" to bases throughout the galaxy. Popular opinion still holds against *SSI*. *[READ MORE]*
 
 It is still unclear the full extent of the casualties and damages caused by the explosion. Some eye-witnesses believe that there may still be undocumented individual.
 
