@@ -95,7 +95,7 @@ export default {
       "missions": [
         {
           "slug": "000",
-          "name": "e",
+          "name": "Fuck it we ball",
           "status": "start"
         },
         /*{
