@@ -92,6 +92,12 @@ $text-markdown-h2: rgba(255, 255, 255, 0.87);
 }
 
 body {
+  background:black;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
   overflow-y: hidden;
   overflow-x: auto;
 }
@@ -484,9 +490,6 @@ section .section-header {
   padding-left: 1em;
 }
 
-.pilot-list-container {
-}
-
 #pilots .pilot {
   display: flex;
   flex-direction: row;
@@ -601,6 +604,10 @@ section .section-header {
   transition: 0.5s ease;
 }
 
+.o-modal__view{
+  overflow-x: auto;
+}
+
 .o-modal > div:nth-child(2) {
   position: absolute;
   left: 50px;
@@ -710,6 +717,7 @@ section .section-header {
     top: -38px;
   }
 }
+
 
 .o-modal__overlay {
   bottom: 0;

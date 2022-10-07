@@ -59,7 +59,7 @@ export default {
 				props: {
 					pilot: this.pilot,
 				},
-				class: "TEST",
+				class: "o-modal__view",
 				width: 1920,
 			});
 		},
