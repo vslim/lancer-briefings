@@ -4,8 +4,10 @@
 		<Sidebar :animate="animate" :class="{ animate: animate }" />
 	</div>
 	<div id="router-view-container">
-		<router-view :animate="animate" :initial-slug="initialSlug" :missions="missions" :events="events"
+		<router-view :animate="animate" :initial-slug="initialSlug" :events="events"
 			:pilots="pilots" :clocks="clocks" :reserves="reserves" />
+		<!-- <router-view :animate="animate" :initial-slug="initialSlug" :missions="missions" :events="events"
+			:pilots="pilots" :clocks="clocks" :reserves="reserves" /> -->
 	</div>
 	<svg style="visibility: hidden; position: absolute" width="0" height="0" xmlns="http://www.w3.org/2000/svg"
 		version="1.1">
@@ -43,7 +45,7 @@ export default {
 			pilotSpecialInfo: Config.pilotSpecialInfo,
 			clocks: [],
 			events: [],
-			missions: [],
+			//missions: [],
 			pilots: [],
 			reserves: [],
 			bonds: [],
@@ -51,7 +53,7 @@ export default {
 	},
 	created() {
 		this.setTitleFavicon(Config.defaultTitle + " MISSION BRIEFING", Config.icon);
-		this.importMissions(import.meta.glob("@/assets/missions/*.md", { query: '?raw', import: 'default' }));
+		//this.importMissions(import.meta.glob("@/assets/missions/*.md", { query: '?raw', import: 'default' }));
 		this.importEvents(import.meta.glob("@/assets/events/*.md", { query: '?raw', import: 'default' }));
 		this.importClocks(import.meta.glob("@/assets/clocks/*.json"));
 		this.importReserves(import.meta.glob("@/assets/reserves/*.json"));
@@ -69,21 +71,21 @@ export default {
 			faviconEl.setAttribute('href', favicon);
 			headEl.appendChild(faviconEl);
 		},
-		async importMissions(files) {
-			let filePromises = Object.keys(files).map(path => files[path]());
-			let fileContents = await Promise.all(filePromises);
-			fileContents.forEach(content => {
-				let mission = {};
-				mission["slug"] = content.split("\n")[0];
-				mission["name"] = content.split("\n")[1];
-				mission["status"] = content.split("\n")[2];
-				mission["content"] = content.split("\n").splice(3).join("\n");
-				this.missions = [...this.missions, mission];
-			});
-			this.missions = this.missions.sort(function (a, b) {
-				return b["slug"] - a["slug"];
-			})
-		},
+		// async importMissions(files) {
+		// 	let filePromises = Object.keys(files).map(path => files[path]());
+		// 	let fileContents = await Promise.all(filePromises);
+		// 	fileContents.forEach(content => {
+		// 		let mission = {};
+		// 		mission["slug"] = content.split("\n")[0];
+		// 		mission["name"] = content.split("\n")[1];
+		// 		mission["status"] = content.split("\n")[2];
+		// 		mission["content"] = content.split("\n").splice(3).join("\n");
+		// 		this.missions = [...this.missions, mission];
+		// 	});
+		// 	this.missions = this.missions.sort(function (a, b) {
+		// 		return b["slug"] - a["slug"];
+		// 	})
+		// },
 		async importEvents(files) {
 			let filePromises = Object.keys(files).map(path => files[path]());
 			let fileContents = await Promise.all(filePromises);

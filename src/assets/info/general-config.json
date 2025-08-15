@@ -2,18 +2,18 @@
   "initialSlug": "001",
   "planetPath": "/planet.webm",
   "animate": true,
-  "defaultTitle": "MSMC |",
-  "icon": "/faction-logos/msmc.svg",
+  "defaultTitle": "SHC |",
+  "icon": "/faction-logos/hawk.svg",
   "header": {
-    "planet": "Heiligtum-6 'Deep Blue'",
-    "year": "5017u",
-    "system": "Heiligtum",
-    "gate": "Rào Cỏ",
+    "planet": "Deck of the Irrawaddy",
+    "year": "5016u",
+    "system": "Inner Blinkspace",
+    "gate": "Ngọc Linh",
     "ring": "Annamite",
-    "headerTitle": "Mirrorsmoke",
-    "headerSubtitle": "Mercenary Company",
+    "headerTitle": "Smokehawks",
+    "headerSubtitle": "Company",
     "subheaderTitle": "Contract Work",
-    "subheaderSubtitle": "Sierra-Whiskey-Alpha-Golf"
+    "subheaderSubtitle": "Retrieval - Dahlia, Voladores"
   },
   "pilotSpecialInfo": {}
 }

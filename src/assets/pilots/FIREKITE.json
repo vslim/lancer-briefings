@@ -1,0 +1,672 @@
+{
+    "id": "5eb776aa-bf22-469d-9318-ce0ecb1cbd18",
+    "level": 0,
+    "callsign": "FIREKITE",
+    "name": "YIP WingHei \"Wings\"",
+    "player_name": "KES",
+    "status": "Active",
+    "dead": false,
+    "text_appearance": "<p>AGE: 26   HEIGHT: 5'8\"   WEIGHT: 150 LBS</p><p>SEX: F    EYES: BRN      HAIR: BLK</p>",
+    "notes": "",
+    "history": "<p><strong>YIP WINGHEI — NOVITIATE POTENTIA — 023</strong><br><br><em>Mxvs9LDQhR8Z2g827nHYYktmg2hcApGwib86yYLgwzRnAijfPKkpNJDd9vF4yfxcNTtzCAM5kNV4TbFJ</em><br><br>Hailing from Cesnam of the Argo Navis system, <em><strong>YIP WINGHEI</strong></em> was born in 4990u and raised by a widowed father with one sister. <em><strong>WINGHEI</strong></em> graduated university as a paramedic and served on the Cesnam ambulance services. She is associated with the Cesnam Wilds Search and Rescue (CWSAR). <br>CWSAR files indicate she is may alternatively be addressed by her moniker: <em><strong>\"WINGS\"</strong></em>, and serves as a triage care and extraction specialist in a volunteer capacity.<br>Recently her ambitions appear to have grown beyond planetside. Intel reports indicate she may have interest in joining <em><strong>[REDACTED]</strong></em>, and was last seen at a departure hanger at the Cesnam Orbital Station Interplanetary Dock. Her current whereabouts are unknown.<br><em><strong>WINGHEI</strong></em> is designated Low Priority - Not Dangerous.<br><br><em>Mxvs9LDQhR8Z2g827nHYYktmg2hcApGwib86yYLgwzRnAijfPKkpNJDd9vF4yfxcNTtzCAM5kNV4TbFJ</em></p>",
+    "quirks": [],
+    "current_hp": 9,
+    "background": "SEARCH AND RESCUE/MEDIC",
+    "resistances": [],
+    "mechs": [
+        {
+            "id": "36fcb5bb-6359-4a9f-9972-192bf304f201",
+            "name": "INCANDESCENT CIPHER",
+            "notes": "<p>the Immolated Haruspex</p>",
+            "gm_note": "",
+            "frame": "mf_dusk_wing",
+            "active": false,
+            "current_structure": 4,
+            "current_move": 6,
+            "boost": 0,
+            "current_hp": 8,
+            "overshield": 0,
+            "current_stress": 4,
+            "current_heat": 0,
+            "current_repairs": 3,
+            "current_overcharge": 0,
+            "current_core_energy": 1,
+            "statuses": [],
+            "conditions": [],
+            "resistances": [],
+            "reactions": [],
+            "burn": 0,
+            "destroyed": false,
+            "defeat": "",
+            "activations": 1,
+            "meltdown_imminent": false,
+            "reactor_destroyed": false,
+            "core_active": false,
+            "cc_ver": "ERR",
+            "lastModified": "Tue Mar 12 2024 19:12:58 GMT-0700 (Pacific Daylight Saving Time)",
+            "isDeleted": false,
+            "expireTime": "",
+            "deleteTime": "",
+            "portrait": "",
+            "cloud_portrait": "https://i.imgur.com/hLSNrQb.png",
+            "loadouts": [
+                {
+                    "id": "faf4afa1-2bff-4469-ac8c-41178f8aac60",
+                    "name": "Primary",
+                    "systems": [
+                        {
+                            "id": "ms_neurospike",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "“Somehow it got inside my cockpit. There were hands – cold hands – around my neck, fingers in my mouth, worming under my hardsuit. No one else could have been in there with me and yet, someone was. I couldn't even scream, it held my tongue in a fist and it squeezed, and it whispered its name to me, and it said nothing I could understand. I have never felt more alone – it was just me and… it. Alone in the universe, forever.”"
+                        },
+                        {
+                            "id": "ms_flicker_field_projector",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "“I saw myself over and over and over and over and over and over and over and–”"
+                        },
+                        {
+                            "id": "ms_personalizations",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_turret_drones",
+                            "uses": 3,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "The use of turret drones is a rather traditional form of force multiplication – one that has remained the backbone of defense in many theaters."
+                        },
+                        {
+                            "id": "ms_custom_paint_job",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        }
+                    ],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Aux/Aux",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": {
+                                        "id": "fgtsmw_light_machine_gun",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "GMS weapons run the gamut from venerable designs kept current through regular standardization programs to cutting-edge armaments built to meet modern battlefield challenges, and their catalogue is always expanding. Many of these weapons are frequently mounted to a wide variety of armored vehicles beyond just mechs, such as light machine guns and anti-armor missile launchers, while other designs are strictly intended for mechanized chassis operation, such as the high-powered heavy assault shotgun and their line of extended blade/haft anti-cavalry melee weaponry. This is in addition to periodic updates to the T-3 line of advanced and exotic ordnance, ranging from the Wasp nexus which launches guided swarms of shaped-charge explosive microdrones to the Apex nexus, a large gunship-tier directed strike unit capable of providing squads with dedicated fire support.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                },
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": {
+                                        "id": "fgtsmw_wasp_nexus",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "GMS weapons run the gamut from venerable designs kept current through regular standardization programs to cutting-edge armaments built to meet modern battlefield challenges, and their catalogue is always expanding. Many of these weapons are frequently mounted to a wide variety of armored vehicles beyond just mechs, such as light machine guns and anti-armor missile launchers, while other designs are strictly intended for mechanized chassis operation, such as the high-powered heavy assault shotgun and their line of extended blade/haft anti-cavalry melee weaponry. This is in addition to periodic updates to the T-3 line of advanced and exotic ordnance, ranging from the Wasp nexus which launches guided swarms of shaped-charge explosive microdrones to the Apex nexus, a large gunship-tier directed strike unit capable of providing squads with dedicated fire support.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Flex",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Flex",
+                                    "weapon": {
+                                        "id": "mw_veil_rifle",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "“We made first contact maybe an hour after breaching the vault. I remember nothing of it. I’m told most of my squad was killed outright; all I remember is light – brilliant – and a lightness in my own being.<br>“I do believe that I died in that moment, and yet I’m here, and I can’t square these two realities. Something has gone wrong, something has gone wrong, something has gone–”",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": null
+                                }
+                            ],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                }
+            ],
+            "active_loadout_index": 0
+        },
+        {
+            "id": "aaffd73c-0d76-4874-a7a1-9313f45b7889",
+            "name": "Indigo Vector",
+            "notes": "",
+            "gm_note": "",
+            "frame": "mf_chomolungma",
+            "active": false,
+            "current_structure": 4,
+            "current_move": 4,
+            "boost": 0,
+            "current_hp": 12,
+            "overshield": 0,
+            "current_stress": 4,
+            "current_heat": 0,
+            "current_repairs": 4,
+            "current_overcharge": 0,
+            "current_core_energy": 1,
+            "statuses": [],
+            "conditions": [],
+            "resistances": [],
+            "reactions": [],
+            "burn": 0,
+            "destroyed": false,
+            "defeat": "",
+            "activations": 1,
+            "meltdown_imminent": false,
+            "reactor_destroyed": false,
+            "core_active": false,
+            "cc_ver": "ERR",
+            "lastModified": "Tue Aug 12 2025 19:04:37 GMT-0700 (Pacific Daylight Time)",
+            "isDeleted": false,
+            "expireTime": "",
+            "deleteTime": "",
+            "portrait": "",
+            "cloud_portrait": "",
+            "loadouts": [
+                {
+                    "id": "1189e29d-2ccc-459a-99b2-7de60f5f8b61",
+                    "name": "Primary",
+                    "systems": [
+                        {
+                            "id": "ms_personalizations",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_pattern_a_jericho_deployable_cover",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_pattern_b_hex_charges",
+                            "uses": 3,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_custom_paint_job",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": ""
+                        },
+                        {
+                            "id": "ms_manipulators",
+                            "uses": 0,
+                            "destroyed": false,
+                            "cascading": false,
+                            "flavorName": "",
+                            "flavorDescription": "Precise interaction with built and natural environments, soft targets, and hazardous materials is part of the daily routine for support-class mechs. This is made possible by manipulators – added multi-digit “hands” with haptic sensors."
+                        }
+                    ],
+                    "integratedSystems": [],
+                    "mounts": [
+                        {
+                            "mount_type": "Main/Aux",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Main",
+                                    "weapon": {
+                                        "id": "mw_nexus_light",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                },
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": {
+                                        "id": "mw_nexus_light",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        },
+                        {
+                            "mount_type": "Flex",
+                            "lock": false,
+                            "slots": [
+                                {
+                                    "size": "Flex",
+                                    "weapon": {
+                                        "id": "mw_nexus_light",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "extra": [
+                                {
+                                    "size": "Auxiliary",
+                                    "weapon": {
+                                        "id": "mw_nexus_light",
+                                        "destroyed": false,
+                                        "cascading": false,
+                                        "loaded": true,
+                                        "mod": null,
+                                        "flavorName": "",
+                                        "flavorDescription": "Much like GMS mechs, GMS weapons are reliable galactic standards, made using interchangeable parts and built to withstand almost any conditions. There are three lines currently in production.<br>The Type-III (T-3) line is made up of heavy weapons, ordnance, and other exotic, specialized, or massive weapons. A broad classification, the T-3 range includes conventional-kinetic anti-materiel rifles, super-rapid cycling pulse rifles, missile racks, cannons, and drone nexuses – “hive”style launchers that serve as miniature factory, hangar, and deployment systems for portable drones. The classification also includes the fearsome “segment knife”, a system that uses flash-printing to produce disposable edged weapons in a vicinity around the user.",
+                                        "customDamageType": null,
+                                        "maxUseOverride": 0,
+                                        "uses": 0,
+                                        "selectedProfile": 0
+                                    }
+                                }
+                            ],
+                            "bonus_effects": [],
+                            "modifiable": true
+                        }
+                    ],
+                    "integratedMounts": [],
+                    "improved_armament": {
+                        "mount_type": "Flex",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Flex",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "superheavy_mounting": {
+                        "mount_type": "Superheavy",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Superheavy",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "integratedWeapon": {
+                        "mount_type": "Aux",
+                        "lock": false,
+                        "slots": [
+                            {
+                                "size": "Auxiliary",
+                                "weapon": null
+                            }
+                        ],
+                        "extra": [],
+                        "bonus_effects": [],
+                        "modifiable": true
+                    },
+                    "extraMounts": [],
+                    "extraIntegratedMounts": []
+                }
+            ],
+            "active_loadout_index": 0
+        }
+    ],
+    "cc_ver": "",
+    "special_equipment": {
+        "PilotGear": [],
+        "Frames": [],
+        "MechWeapons": [],
+        "WeaponMods": [],
+        "MechSystems": [],
+        "SystemMods": []
+    },
+    "combat_history": {
+        "moves": 16,
+        "kills": 0,
+        "damage": 22,
+        "hp_damage": 39,
+        "structure_damage": 0,
+        "overshield": 0,
+        "heat_damage": 9,
+        "reactor_damage": 0,
+        "overcharge_uses": 0,
+        "core_uses": 1
+    },
+    "state": {
+        "active_mech_id": "aaffd73c-0d76-4874-a7a1-9313f45b7889",
+        "remote_mech_id": "",
+        "stage": "Narrative",
+        "turn": 1,
+        "mission": 0,
+        "actions": 2,
+        "braced": false,
+        "overcharged": false,
+        "prepare": false,
+        "bracedCooldown": false,
+        "redundant": false,
+        "stats": {
+            "moves": 0,
+            "kills": 0,
+            "damage": 0,
+            "hp_damage": 0,
+            "structure_damage": 0,
+            "overshield": 0,
+            "heat_damage": 0,
+            "reactor_damage": 0,
+            "overcharge_uses": 0,
+            "core_uses": 0
+        },
+        "deployed": []
+    },
+    "lastModified": "Thu Aug 14 2025 14:52:06 GMT-0700 (Pacific Daylight Time)",
+    "isDeleted": false,
+    "expireTime": "",
+    "deleteTime": "",
+    "lastUpdate_cloud": "Wed Aug 13 2025 23:20:21 GMT-0700 (Pacific Daylight Time)",
+    "lastSync": "Wed Aug 13 2025 23:20:21 GMT-0700 (Pacific Daylight Time)",
+    "shareCode": "",
+    "shareCodeExpiry": "",
+    "isRemoteResource": true,
+    "remoteIID": "us-east-1:fcca61a7-61fd-461b-a307-baa8157f2a6c",
+    "remoteKey": "pilot/YIP WingHei  Wings --5eb776aa-bf22-469d-9318-ce0ecb1cbd18--active",
+    "skills": [
+        {
+            "id": "sk_patch",
+            "rank": 1
+        },
+        {
+            "id": "sk_spot",
+            "rank": 1
+        },
+        {
+            "id": "sk_stay_cool",
+            "rank": 1
+        },
+        {
+            "id": "sk_survive",
+            "rank": 1
+        }
+    ],
+    "talents": [
+        {
+            "id": "t_hacker",
+            "rank": 1
+        },
+        {
+            "id": "t_tactician",
+            "rank": 1
+        },
+        {
+            "id": "t_infiltrator",
+            "rank": 1
+        }
+    ],
+    "mechSkills": [
+        0,
+        2,
+        0,
+        0
+    ],
+    "counter_data": [],
+    "custom_counters": [],
+    "core_bonuses": [],
+    "licenses": [],
+    "reserves": [
+        {
+            "id": "reserve_custom",
+            "type": "Resource",
+            "name": "Wilderness Survival Kit",
+            "label": "Wilderness Survival Kit",
+            "description": "with one-person hammock",
+            "resource_name": "",
+            "resource_note": "",
+            "resource_cost": "",
+            "used": false,
+            "bonuses": [],
+            "actions": [],
+            "synergies": [],
+            "deployables": [],
+            "counters": [],
+            "integrated": [],
+            "special_equipment": []
+        }
+    ],
+    "orgs": [],
+    "bondId": "ktb-bond-builder",
+    "xp": 0,
+    "stress": 0,
+    "isBroken": false,
+    "burdens": [],
+    "bondPowers": [
+        {
+            "name": "Inspiration",
+            "frequency": "2/session",
+            "description": "When an ally takes can see or hear you while making a skill check, you can encourage them to give them +1 Accuracy or increased effect."
+        }
+    ],
+    "powerSelections": 0,
+    "maxStress": 8,
+    "bondAnswers": [
+        "Years exploring Cesnam and helping those stranded in backcountry",
+        "Your heart"
+    ],
+    "minorIdeal": "I felt the dirt beneath my feet and beheld a beautiful sight",
+    "clocks": [],
+    "group": "Smokehawks",
+    "sort_index": 1,
+    "portrait": "",
+    "cloud_portrait": "https://i.imgur.com/kJTWbMH.png",
+    "loadout": {
+        "id": "504ce880-047f-4d04-b4c5-299beddad4eb",
+        "name": "Primary",
+        "armor": [
+            {
+                "id": "fgtspg_hardjack_survival_hardsuit",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "This survival hardsuit is designed for use in hazardous environments and wearers can operate for extended periods in such conditions without discomfort. While wearing this armor, you are immune to all damage, heat, and burn from hostile environmental sources including dangerous terrain, and you automatically pass all checks and saves imposed by hostile environmental sources. You may also reroll all Survive checks (or other similar triggers), taking the better result.<br><br>Billions of HARDJACK model PPE hardsuits have been printed across numerous worlds since the design's inception for use by workers performing dangerous jobs in hazardous environments. This particular variant, a C&H exclusive design, is further enhanced with their proprietary thermoregulation mesh, anti-abrasion glazing, an onboard medkit, and extended life support systems for emergency survival situations when immediate aid may not be forthcoming.",
+                "customDamageType": null
+            }
+        ],
+        "weapons": [
+            {
+                "id": "fgtspg_breach_cutter",
+                "destroyed": false,
+                "uses": 0,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Modified man-portable laser cutting tools are often employed by pirates, gladiators, and the desperate as a highly effective, if crude and cumbersome, weapon. Inspired by this, C&H offers a refined weaponized adaptation designed from the ground up as a combateffective system boasting a high-capacity power pack and streamlined design. Though the beam remains effective at range, it excels in close-quarters high-risk hull breaching operations. Users are advised to wear suitable eye protection when employing this weapon.",
+                "customDamageType": null
+            },
+            {
+                "id": "fgtspg_sear",
+                "destroyed": false,
+                "uses": 2,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "The signature armament of the Emir's elite Jannissaries, the Suldani Emirate Advanced Rifle is a sophisticated multi-mode select-fire weapon featuring integrated comp/con ballistic targeting assistance along with a attached secondary launcher designed to fire proprietary plasma warhead \"Executioner\" micromissiles. Jannissary SEARs were biometrically encoded to their individual users, triggering an explosive failsafe upon detecting an unauthorized user or indications of tampering, but after the Emir was deposed C&H managed to obtain several \"blank\" rifles and successfully reverse-engineer the design for mass-licencing.",
+                "customDamageType": null
+            }
+        ],
+        "gear": [
+            {
+                "id": "missing_pilotgear",
+                "destroyed": false,
+                "uses": 3,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "“You ever get the feeling nobody at IPS-N spends any time thinking about the names they give to things? Like, either I don’t read, so I don’t get the reference, or I do and I realize they named a survival tool after a dude who’s famous exclusively for getting dragged to his death tied to a whale.”",
+                "customDamageType": null
+            },
+            {
+                "id": "pg_corrective",
+                "destroyed": false,
+                "uses": 1,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "This clear, plastic-like sheet can be placed over the wounds of severely injured pilots. It instantly begins to stabilize them, injecting medicine and deploying nanites to stitch wounds shut.<br>Expend a charge to apply correctives to Down and Out pilots, immediately bringing them back to consciousness at 1 HP.",
+                "customDamageType": null
+            },
+            {
+                "id": "fgtspg_triage_stim",
+                "destroyed": false,
+                "uses": 1,
+                "cascading": false,
+                "flavorName": "",
+                "flavorDescription": "Often integrated into personal armor or hardsuits, a triage stim unit monitors the user's vital signs and activates upon detecting critical physical trauma. Automatic injectors administer a potent cocktail of painkillers, stimulants, quick-clotting agents, and pharmastabilizers, which can be further supplemented with broad-spectrum antitoxins, tailored chemical agent antidotes, or anti-radiation doseages based on theater-specific threat assessments. While this is no substitute for proper medical attention, the window of opportunity it provides in the field is sufficient to stabilize patients long enough for further aid to be administered. Whenever you are reduced to 0 HP, you may expend a charge to automatically become Down and Out instead of rolling.",
+                "customDamageType": null
+            }
+        ],
+        "extendedWeapons": [
+            null
+        ],
+        "extendedGear": [
+            null,
+            null
+        ]
+    },
+    "brews": [
+        {
+            "LcpId": "1Mi3Wbbil+3odfyXBosYwb4fyH8=",
+            "LcpName": "Field Guide to Suldan",
+            "LcpVersion": "2.2.6",
+            "Website": "https://kaitave.itch.io/field-guide-to-suldan"
+        },
+        {
+            "LcpId": "GWG3TKHfJGNXeO3U3Q+CgjhS/Os=",
+            "LcpName": "Operation Solstice Rain Data",
+            "LcpVersion": "1.2.0",
+            "Website": "https://massif-press.itch.io/operation-solstice-rain"
+        }
+    ]
+}

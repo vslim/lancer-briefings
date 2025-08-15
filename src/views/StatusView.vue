@@ -74,10 +74,10 @@ export default {
 			type: String,
 			required: true,
 		},
-		missions: {
-			type: Array,
-			required: true,
-		},
+		// missions: {
+		// 	type: Array,
+		// 	required: true,
+		// },
 		events: {
 			type: Array,
 			required: true,
@@ -102,16 +102,19 @@ export default {
 			animationDelay: "1.75s",
 			clockAnimationDelay: "2500",
 			missionMarkdown: "",
+			missions: [],
 		};
 	},
 	computed: {},
 	created() {
 		this.setAnimate();
 		this.setClockAnimateDelay();
+		this.importMissions(import.meta.glob("@/assets/missions/*.md", { query: '?raw', import: 'default' }));
 	},
-	beforeUpdate() {
-		// initial set
-		this.selectMission(this.missionSlug);
+	beforeUpdate(){
+		if (this.missions.length > 0) {
+			this.selectMission(this.missionSlug);
+		}
 	},
 	mounted() {
 		// need to set on re-mount
@@ -120,10 +123,26 @@ export default {
 		}
 	},
 	methods: {
+		async importMissions(files) {
+			let filePromises = Object.keys(files).map(path => files[path]());
+			let fileContents = await Promise.all(filePromises);
+			fileContents.forEach(content => {
+				let mission = {};
+				mission["slug"] = content.split("\r\n")[0];
+				mission["name"] = content.split("\r\n")[1];
+				mission["status"] = content.split("\r\n")[2];
+				mission["content"] = content.split("\r\n").splice(3).join("\n");
+				this.missions = [...this.missions, mission];
+			});
+			this.missions = this.missions.sort(function (a, b) {
+				return b["slug"] - a["slug"];
+			})
+			this.selectMission(this.missionSlug);
+		},
 		selectMission(slug) {
 			this.missionSlug = slug;
-			let m = this.missions.find(x => x.slug === this.missionSlug);
-			this.missionMarkdown = m.content;
+			let m = this.missions.find(x => x.slug == this.missionSlug);
+			this.missionMarkdown = ""+m?.content;
 		},
 		setAnimate() {
 			if (this.animate) {

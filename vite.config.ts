@@ -3,6 +3,8 @@ import vue from "@vitejs/plugin-vue";
 import vueDevTools from 'vite-plugin-vue-devtools'
 import viteCompression from "vite-plugin-compression";
 import path from "path";
+import tsconfigPaths from 'vite-tsconfig-paths';
+
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -38,4 +40,5 @@ export default defineConfig({
   css: {
     devSourcemap: true,
   },
+  
 });
