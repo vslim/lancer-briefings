@@ -128,10 +128,10 @@ export default {
 			let fileContents = await Promise.all(filePromises);
 			fileContents.forEach(content => {
 				let mission = {};
-				mission["slug"] = content.split("\r\n")[0];
-				mission["name"] = content.split("\r\n")[1];
-				mission["status"] = content.split("\r\n")[2];
-				mission["content"] = content.split("\r\n").splice(3).join("\n");
+				mission["slug"] = content.split("\n")[0];
+				mission["name"] = content.split("\n")[1];
+				mission["status"] = content.split("\n")[2];
+				mission["content"] = content.split("\n").splice(3).join("\n");
 				this.missions = [...this.missions, mission];
 			});
 			this.missions = this.missions.sort(function (a, b) {
